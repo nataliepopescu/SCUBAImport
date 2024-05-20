@@ -9,6 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val tankWrapper = TankWrapper()
+        binding.tank.text = tankWrapper.toString()
     }
 
     companion object {
