@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val tankWrapper = TankWrapper()
-        binding.tank.text = tankWrapper.toString()
+        //binding.tank.text = tankWrapper.toString()
     }
 
     companion object {

@@ -55,7 +55,7 @@ apply plugin: 'org.mozilla.rust-android-gradle.rust-android'
 cargo {
     module = "src/main/rust/scuba/client/tank"
     libname = "tank"
-    targets = ["x86_64", "x86", "arm", "arm64"]
+    targets = ["arm64"] //["x86_64", "x86", "arm", "arm64"]
 }
 
 tasks.whenTaskAdded { task ->
